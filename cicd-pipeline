@@ -5,7 +5,7 @@ pipeline {
         stage ("Code") {
             steps {
                 echo " Cloning the Code"
-                git url:"https://github.com/iam-vidyakambali/Devops-Task2-Files.git" , branch: "main"
+                git url:"https://github.com/iam-vidyakambali/django-notes-app.git", branch: "main"
             }
         }
         stage ("Build"){
